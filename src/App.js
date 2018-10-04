@@ -38,7 +38,7 @@ class App extends React.Component{
         <input type="text" value={this.state.ctodo} onChange={this.handleChange} placeholder="enter a new todo" className="form-control" />
 				</div>
 				<div>
-				<button className="btn btn-light" onClick={this.addtodo}>Add Todo</button>
+				<button className="button" onClick={this.addtodo}>Add Todo</button>
 				</div>
 				<br></br>
 					{this.state.todos.length === 0 ? <h1>No todos yet !</h1> : <ul>{b}</ul>}
